@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food lover</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script%7CMuli&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="container">
+    <h1>A Food Lover's Website</h1>  
+</header>
+  <nav class="container">
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="images.html">image gallery</a></li>
+      <li><a href="contact.html">contact</a></li>
+    </ul>
+  </nav>
+  <main class="container">
+    <form>
+      <h2>Contact</h2>
+      <img class="waffle" src="assets/foodiesfeed.com_pouring-maple-syrup-on-a-chocolate-waffle.jpg" alt="waffle">
+      <p>You can fill in the following form to contact me.
+      </p>
+      <h4>Are you a food lover?</h4>
+      <input type="radio" id="yes" name="food_lover" value="yes">
+      <label for="yes">Yes, absolutely!</label><br>
+      <input type="radio" id="no" name="food_lover" value="no">
+      <label for="no">No, not really.</label><br>
+      <input type="radio" id="maybe" name="food_lover" value="maybe">
+      <label for="maybe">I have not thought about it at all.</label><br>
+      <h4>Do you prefer sweet or savory?</h4>
+      <input type="radio" id="sweet" name="choice" value="sweet">
+      <label for="sweet">Sweet</label><br>
+      <input type="radio" id="savory" name="choice" value="savory">
+      <label for="savory">Savory</label><br>
+      <input type="radio" id="both" name="choice" value="both">
+      <label for="both">I love both!</label><br>
+      <label for="name">Name</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+      <label for="text_area">Message</label><br>
+      <textarea id="text_area" rows="6" cols="30" placeholder="Enter your message here"></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+  <footer class="container">
+    <h3>@A Food Lover's Website</h3>
+  </footer>  
+</body>
+</html>
