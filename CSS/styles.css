@@ -140,6 +140,10 @@ nav ul li a {
   box-shadow: 0 0 5px #402E32;
 }
 
+.waffle:hover, .roll:hover, .pancake:hover, .chocolate:hover {
+  box-shadow: 0 0 10px #402E32, 0 0 10px #402E32;
+}
+
 iframe {
   border-radius: 3px;
   box-shadow: 0 0 5px #402E32;
